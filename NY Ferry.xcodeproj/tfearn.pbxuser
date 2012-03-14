@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* NY_FerryAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {901, 467}}";
+			sepNavSelRange = "{333, 0}";
+			sepNavVisRange = "{0, 474}";
+			sepNavWindowFrame = "{{61, 173}, {750, 558}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* NY_FerryAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 650}}";
+			sepNavSelRange = "{286, 0}";
+			sepNavVisRange = "{215, 832}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* NY Ferry */ = {
+		activeExec = 0;
+		executables = (
+			A8CD683511EE2F98009B8BF3 /* NY Ferry */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv6;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A8CD683511EE2F98009B8BF3 /* NY Ferry */;
+		activeSDKPreference = iphonesimulator4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* NY Ferry */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* NY Ferry */,
+		);
+		breakpoints = (
+			A8FE702A120347A300733364 /* SplashViewController.m:51 */,
+			A8FE70C31203642C00733364 /* SplashViewController.m:35 */,
+		);
+		codeSenseManager = A8CD684F11EE2FA8009B8BF3 /* Code sense */;
+		executables = (
+			A8CD683511EE2F98009B8BF3 /* NY Ferry */,
+		);
+		expressions = (
+			from,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					495,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					573,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					738,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					699,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					661,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					645,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 339704391;
+			PBXWorkspaceStateSaveDate = 339704391;
+		};
+		perUserProjectItems = {
+			A80D08BC1211A91D0095B4A7 /* PBXTextBookmark */ = A80D08BC1211A91D0095B4A7 /* PBXTextBookmark */;
+			A8103E691208AEB80023266A /* PBXTextBookmark */ = A8103E691208AEB80023266A /* PBXTextBookmark */;
+			A83199021209BF13006A9446 /* PlistBookmark */ = A83199021209BF13006A9446 /* PlistBookmark */;
+			A845450A1209EAF700E7A6F6 /* PBXBookmark */ = A845450A1209EAF700E7A6F6 /* PBXBookmark */;
+			A845450F1209EAF700E7A6F6 /* PBXTextBookmark */ = A845450F1209EAF700E7A6F6 /* PBXTextBookmark */;
+			A84545101209EAF700E7A6F6 /* PlistBookmark */ = A84545101209EAF700E7A6F6 /* PlistBookmark */;
+			A84545111209EAF700E7A6F6 /* PlistBookmark */ = A84545111209EAF700E7A6F6 /* PlistBookmark */;
+			A84545121209EAF700E7A6F6 /* PlistBookmark */ = A84545121209EAF700E7A6F6 /* PlistBookmark */;
+			A84545131209EAF700E7A6F6 /* PlistBookmark */ = A84545131209EAF700E7A6F6 /* PlistBookmark */;
+			A84545141209EAF700E7A6F6 /* PlistBookmark */ = A84545141209EAF700E7A6F6 /* PlistBookmark */;
+			A84545151209EAF700E7A6F6 /* PlistBookmark */ = A84545151209EAF700E7A6F6 /* PlistBookmark */;
+			A84545161209EAF700E7A6F6 /* PlistBookmark */ = A84545161209EAF700E7A6F6 /* PlistBookmark */;
+			A84545171209EAF700E7A6F6 /* PlistBookmark */ = A84545171209EAF700E7A6F6 /* PlistBookmark */;
+			A84545181209EAF700E7A6F6 /* PlistBookmark */ = A84545181209EAF700E7A6F6 /* PlistBookmark */;
+			A84545191209EAF700E7A6F6 /* PlistBookmark */ = A84545191209EAF700E7A6F6 /* PlistBookmark */;
+			A845451A1209EAF700E7A6F6 /* PlistBookmark */ = A845451A1209EAF700E7A6F6 /* PlistBookmark */;
+			A845451B1209EAF700E7A6F6 /* PlistBookmark */ = A845451B1209EAF700E7A6F6 /* PlistBookmark */;
+			A845451C1209EAF700E7A6F6 /* PlistBookmark */ = A845451C1209EAF700E7A6F6 /* PlistBookmark */;
+			A845451D1209EAF700E7A6F6 /* PlistBookmark */ = A845451D1209EAF700E7A6F6 /* PlistBookmark */;
+			A845451E1209EAF700E7A6F6 /* PlistBookmark */ = A845451E1209EAF700E7A6F6 /* PlistBookmark */;
+			A845451F1209EAF700E7A6F6 /* PlistBookmark */ = A845451F1209EAF700E7A6F6 /* PlistBookmark */;
+			A84545201209EAF700E7A6F6 /* PlistBookmark */ = A84545201209EAF700E7A6F6 /* PlistBookmark */;
+			A84545211209EAF700E7A6F6 /* PlistBookmark */ = A84545211209EAF700E7A6F6 /* PlistBookmark */;
+			A8454589120A0D8E00E7A6F6 /* PBXTextBookmark */ = A8454589120A0D8E00E7A6F6 /* PBXTextBookmark */;
+			A8454594120A158C00E7A6F6 /* PBXBookmark */ = A8454594120A158C00E7A6F6 /* PBXBookmark */;
+			A84B1772121AEE1900A530B7 /* PBXTextBookmark */ = A84B1772121AEE1900A530B7 /* PBXTextBookmark */;
+			A882ACF4143F7AB0003D013A /* PlistBookmark */ = A882ACF4143F7AB0003D013A /* PlistBookmark */;
+			A882ACF5143F7AB0003D013A /* PBXTextBookmark */ = A882ACF5143F7AB0003D013A /* PBXTextBookmark */;
+			A882ACF6143F7AB0003D013A /* PBXTextBookmark */ = A882ACF6143F7AB0003D013A /* PBXTextBookmark */;
+			A882ACF7143F7AB0003D013A /* PBXTextBookmark */ = A882ACF7143F7AB0003D013A /* PBXTextBookmark */;
+			A882ACF8143F7AB0003D013A /* PBXTextBookmark */ = A882ACF8143F7AB0003D013A /* PBXTextBookmark */;
+			A882AD08143F7B11003D013A /* PBXTextBookmark */ = A882AD08143F7B11003D013A /* PBXTextBookmark */;
+			A882AD09143F7B11003D013A /* PBXTextBookmark */ = A882AD09143F7B11003D013A /* PBXTextBookmark */;
+			A882AD0A143F7B11003D013A /* PBXTextBookmark */ = A882AD0A143F7B11003D013A /* PBXTextBookmark */;
+			A882AD0B143F7B11003D013A /* PlistBookmark */ = A882AD0B143F7B11003D013A /* PlistBookmark */;
+			A882AD0C143F7B11003D013A /* PlistBookmark */ = A882AD0C143F7B11003D013A /* PlistBookmark */;
+			A882AD0D143F7B11003D013A /* PlistBookmark */ = A882AD0D143F7B11003D013A /* PlistBookmark */;
+			A882AD0E143F7B11003D013A /* PlistBookmark */ = A882AD0E143F7B11003D013A /* PlistBookmark */;
+			A882AD0F143F7B11003D013A /* PlistBookmark */ = A882AD0F143F7B11003D013A /* PlistBookmark */;
+			A882AD10143F7B11003D013A /* PBXBookmark */ = A882AD10143F7B11003D013A /* PBXBookmark */;
+			A882AD11143F7B11003D013A /* PlistBookmark */ = A882AD11143F7B11003D013A /* PlistBookmark */;
+			A8C1F57E1208618000E25CB2 /* PBXBookmark */ = A8C1F57E1208618000E25CB2 /* PBXBookmark */;
+			A8C52323121EEA21005DF213 /* PBXTextBookmark */ = A8C52323121EEA21005DF213 /* PBXTextBookmark */;
+			A8E02B0012889E35003E9D27 /* PBXTextBookmark */ = A8E02B0012889E35003E9D27 /* PBXTextBookmark */;
+			A8E02B501288A4E2003E9D27 /* PBXTextBookmark */ = A8E02B501288A4E2003E9D27 /* PBXTextBookmark */;
+			A8E02B901288AC92003E9D27 /* PBXTextBookmark */ = A8E02B901288AC92003E9D27 /* PBXTextBookmark */;
+			A8E02B911288AC92003E9D27 /* PBXBookmark */ = A8E02B911288AC92003E9D27 /* PBXBookmark */;
+			A8E02B921288AC92003E9D27 /* PBXBookmark */ = A8E02B921288AC92003E9D27 /* PBXBookmark */;
+			A8E02B931288AC92003E9D27 /* PBXBookmark */ = A8E02B931288AC92003E9D27 /* PBXBookmark */;
+			A8ECA44E12070A26001DE4D5 /* PBXTextBookmark */ = A8ECA44E12070A26001DE4D5 /* PBXTextBookmark */;
+			A8FE70821203509F00733364 /* PBXBookmark */ = A8FE70821203509F00733364 /* PBXBookmark */;
+		};
+		sourceControlManager = A8CD684E11EE2FA8009B8BF3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* NY_Ferry-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {883, 494}}";
+			sepNavSelRange = "{449, 0}";
+			sepNavVisRect = "{{0, 0}, {883, 494}}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	A80D08BC1211A91D0095B4A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A8A09AAA11F7814C00B8893B /* commondefs.h */;
+		name = "commondefs.h: 11";
+		rLen = 0;
+		rLoc = 225;
+		rType = 0;
+		vrLen = 993;
+		vrLoc = 0;
+	};
+	A8103E3F1208A7880023266A /* AboutViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 657}}";
+			sepNavSelRange = "{388, 0}";
+			sepNavVisRange = "{0, 388}";
+		};
+	};
+	A8103E401208A7880023266A /* AboutViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1251, 884}}";
+			sepNavSelRange = "{1409, 253}";
+			sepNavVisRange = "{773, 898}";
+		};
+	};
+	A8103E691208AEB80023266A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* NY_FerryAppDelegate.h */;
+		name = "NY_FerryAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 474;
+		vrLoc = 0;
+	};
+	A83199021209BF13006A9446 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A831988F1209B63D006A9446 /* paulus-belford-schedule.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/schedules/paulus-belford-schedule.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A845450A1209EAF700E7A6F6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A8103E511208ACDD0023266A /* about-icon.png */;
+	};
+	A845450F1209EAF700E7A6F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A8FE6D351200CE6F00733364 /* ScheduleViewCell.m */;
+		name = "ScheduleViewCell.m: 31";
+		rLen = 0;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 764;
+		vrLoc = 0;
+	};
+	A84545101209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198A31209B63D006A9446 /* beacon-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/beacon-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A84545111209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198A41209B63D006A9446 /* belford-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/belford-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A84545121209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198A51209B63D006A9446 /* edgewater-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/edgewater-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A84545131209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198A61209B63D006A9446 /* haverstraw-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/haverstraw-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A84545141209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198A71209B63D006A9446 /* hoboken-14th-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/hoboken-14th-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A84545151209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198A81209B63D006A9446 /* hoboken-njtransit-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/hoboken-njtransit-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A84545161209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198A91209B63D006A9446 /* liberty-harbor-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/liberty-harbor-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A84545171209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198AA1209B63D006A9446 /* midtown-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/midtown-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A84545181209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198AB1209B63D006A9446 /* newburgh-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/newburgh-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A84545191209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198AC1209B63D006A9446 /* newport-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/newport-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A845451A1209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198AD1209B63D006A9446 /* ossining-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/ossining-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A845451B1209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198AE1209B63D006A9446 /* paulus-hook-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/paulus-hook-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A845451C1209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198AF1209B63D006A9446 /* pier-11-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/pier-11-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A845451D1209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198B01209B63D006A9446 /* port-liberte-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/port-liberte-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A845451E1209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198B11209B63D006A9446 /* terminals.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/terminals.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A845451F1209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198B21209B63D006A9446 /* weehawken-lincoln-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/weehawken-lincoln-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A84545201209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198B31209B63D006A9446 /* weehawken-port-imperial-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/weehawken-port-imperial-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A84545211209EAF700E7A6F6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198B41209B63D006A9446 /* wfc-terminal.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/nywaterway/terminals/wfc-terminal.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A8454589120A0D8E00E7A6F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A8FE6D341200CE6F00733364 /* ScheduleViewCell.h */;
+		name = "ScheduleViewCell.h: 21";
+		rLen = 0;
+		rLoc = 398;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	A8454594120A158C00E7A6F6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A8FE6E3E120202FB00733364 /* clock-icon.png */;
+	};
+	A84B1772121AEE1900A530B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A8103E401208A7880023266A /* AboutViewController.m */;
+		name = "AboutViewController.m: 58";
+		rLen = 253;
+		rLoc = 1409;
+		rType = 0;
+		vrLen = 898;
+		vrLoc = 773;
+	};
+	A87EAA9211F651F2006C72AA /* ScheduleToViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {916, 498}}";
+			sepNavSelRange = "{286, 0}";
+			sepNavVisRange = "{0, 382}";
+		};
+	};
+	A87EAA9311F651F2006C72AA /* ScheduleToViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {916, 1846}}";
+			sepNavSelRange = "{3686, 0}";
+			sepNavVisRange = "{624, 2742}";
+		};
+	};
+	A87EAA9811F652CB006C72AA /* ScheduleFromViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {916, 498}}";
+			sepNavSelRange = "{360, 0}";
+			sepNavVisRange = "{0, 361}";
+			sepNavWindowFrame = "{{87, 188}, {750, 558}}";
+		};
+	};
+	A87EAA9911F652CB006C72AA /* ScheduleFromViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {916, 1417}}";
+			sepNavSelRange = "{1388, 0}";
+			sepNavVisRange = "{832, 1013}";
+			sepNavWindowFrame = "{{84, 152}, {750, 558}}";
+		};
+	};
+	A882ACF4143F7AB0003D013A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* NY_Ferry-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Project/NY Ferry/NY_Ferry-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	A882ACF5143F7AB0003D013A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* NY_FerryAppDelegate.m */;
+		name = "NY_FerryAppDelegate.m: 17";
+		rLen = 0;
+		rLoc = 286;
+		rType = 0;
+		vrLen = 832;
+		vrLoc = 215;
+	};
+	A882ACF6143F7AB0003D013A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A8AE8FBF11F4FCE70019DDD3 /* ScheduleNavigationController.h */;
+		name = "ScheduleNavigationController.h: 17";
+		rLen = 0;
+		rLoc = 257;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	A882ACF7143F7AB0003D013A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A8AE8FC011F4FCE70019DDD3 /* ScheduleNavigationController.m */;
+		name = "ScheduleNavigationController.m: 28";
+		rLen = 0;
+		rLoc = 608;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 0;
+	};
+	A882ACF8143F7AB0003D013A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A87EAA9811F652CB006C72AA /* ScheduleFromViewController.h */;
+		name = "ScheduleFromViewController.h: 17";
+		rLen = 0;
+		rLoc = 360;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 0;
+	};
+	A882AD08143F7B11003D013A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A87EAA9911F652CB006C72AA /* ScheduleFromViewController.m */;
+		name = "ScheduleFromViewController.m: 46";
+		rLen = 0;
+		rLoc = 1388;
+		rType = 0;
+		vrLen = 1013;
+		vrLoc = 832;
+	};
+	A882AD09143F7B11003D013A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A87EAA9211F651F2006C72AA /* ScheduleToViewController.h */;
+		name = "ScheduleToViewController.h: 16";
+		rLen = 0;
+		rLoc = 286;
+		rType = 0;
+		vrLen = 382;
+		vrLoc = 0;
+	};
+	A882AD0A143F7B11003D013A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A87EAA9311F651F2006C72AA /* ScheduleToViewController.m */;
+		name = "ScheduleToViewController.m: 74";
+		rLen = 0;
+		rLoc = 3686;
+		rType = 0;
+		vrLen = 2742;
+		vrLoc = 624;
+	};
+	A882AD0B143F7B11003D013A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198771209B63D006A9446 /* beacon-newburgh-schedule.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Project/NY Ferry/nywaterway/schedules/beacon-newburgh-schedule.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	A882AD0C143F7B11003D013A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198781209B63D006A9446 /* belford-midtown-schedule.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Project/NY Ferry/nywaterway/schedules/belford-midtown-schedule.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	A882AD0D143F7B11003D013A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A83198791209B63D006A9446 /* belford-paulus-schedule.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Project/NY Ferry/nywaterway/schedules/belford-paulus-schedule.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	A882AD0E143F7B11003D013A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A831987A1209B63D006A9446 /* belford-pier11-schedule.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Project/NY Ferry/nywaterway/schedules/belford-pier11-schedule.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	A882AD0F143F7B11003D013A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A831987B1209B63D006A9446 /* belford-wfc-schedule.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Project/NY Ferry/nywaterway/schedules/belford-wfc-schedule.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	A882AD10143F7B11003D013A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A831987C1209B63D006A9446 /* blank-schedule.plist */;
+	};
+	A882AD11143F7B11003D013A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = A831987C1209B63D006A9446 /* blank-schedule.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tfearn/Project/NY Ferry/nywaterway/schedules/blank-schedule.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	A8A09AAA11F7814C00B8893B /* commondefs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {863, 485}}";
+			sepNavSelRange = "{225, 0}";
+			sepNavVisRange = "{0, 993}";
+		};
+	};
+	A8AE8FBF11F4FCE70019DDD3 /* ScheduleNavigationController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {916, 498}}";
+			sepNavSelRange = "{257, 0}";
+			sepNavVisRange = "{0, 257}";
+		};
+	};
+	A8AE8FC011F4FCE70019DDD3 /* ScheduleNavigationController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {916, 498}}";
+			sepNavSelRange = "{608, 0}";
+			sepNavVisRange = "{0, 639}";
+		};
+	};
+	A8C1F57E1208618000E25CB2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A8FE6E3F120202FB00733364 /* map-icon.png */;
+	};
+	A8C52323121EEA21005DF213 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A8103E3F1208A7880023266A /* AboutViewController.h */;
+		name = "AboutViewController.h: 20";
+		rLen = 0;
+		rLoc = 388;
+		rType = 0;
+		vrLen = 388;
+		vrLoc = 0;
+	};
+	A8CD683511EE2F98009B8BF3 /* NY Ferry */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "NY Ferry";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	A8CD684E11EE2FA8009B8BF3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A8CD684F11EE2FA8009B8BF3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A8E02B0012889E35003E9D27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A8FE6C941200B9B700733364 /* ScheduleViewController.m */;
+		name = "ScheduleViewController.m: 122";
+		rLen = 0;
+		rLoc = 9655;
+		rType = 0;
+		vrLen = 2941;
+		vrLoc = 0;
+	};
+	A8E02B501288A4E2003E9D27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A8FE6E481202038C00733364 /* MapViewController.m */;
+		name = "MapViewController.m: 13";
+		rLen = 1204;
+		rLoc = 214;
+		rType = 0;
+		vrLen = 1244;
+		vrLoc = 180;
+	};
+	A8E02B901288AC92003E9D27 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A8FE6E471202038C00733364 /* MapViewController.h */;
+		name = "MapViewController.h: 13";
+		rLen = 181;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 431;
+		vrLoc = 0;
+	};
+	A8E02B911288AC92003E9D27 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A8C1F572120860F800E25CB2 /* Default.png */;
+	};
+	A8E02B921288AC92003E9D27 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A8FE6E6512020F5C00733364 /* nyferry-map.jpg */;
+	};
+	A8E02B931288AC92003E9D27 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A8C1F56212085C4A00E25CB2 /* nyferry-icon.png */;
+	};
+	A8ECA44E12070A26001DE4D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A8FE6C931200B9B700733364 /* ScheduleViewController.h */;
+		name = "ScheduleViewController.h: 14";
+		rLen = 0;
+		rLoc = 270;
+		rType = 0;
+		vrLen = 625;
+		vrLoc = 0;
+	};
+	A8FE6C931200B9B700733364 /* ScheduleViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {901, 689}}";
+			sepNavSelRange = "{270, 0}";
+			sepNavVisRange = "{0, 625}";
+		};
+	};
+	A8FE6C941200B9B700733364 /* ScheduleViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 2665}}";
+			sepNavSelRange = "{9655, 0}";
+			sepNavVisRange = "{0, 2941}";
+		};
+	};
+	A8FE6D341200CE6F00733364 /* ScheduleViewCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {863, 494}}";
+			sepNavSelRange = "{398, 0}";
+			sepNavVisRange = "{0, 398}";
+		};
+	};
+	A8FE6D351200CE6F00733364 /* ScheduleViewCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {863, 520}}";
+			sepNavSelRange = "{665, 0}";
+			sepNavVisRange = "{0, 764}";
+		};
+	};
+	A8FE6E471202038C00733364 /* MapViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 648}}";
+			sepNavSelRange = "{243, 181}";
+			sepNavVisRange = "{0, 431}";
+		};
+	};
+	A8FE6E481202038C00733364 /* MapViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {990, 806}}";
+			sepNavSelRange = "{214, 1204}";
+			sepNavVisRange = "{180, 1244}";
+		};
+	};
+	A8FE6F6D12033B5F00733364 /* SplashViewController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SplashViewController.m;
+		path = "/Users/tfearn/Documents/Dropbox/Project/iPhone/NY Ferry/Classes/SplashViewController.m";
+		sourceTree = "<absolute>";
+	};
+	A8FE702A120347A300733364 /* SplashViewController.m:51 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A8FE6F6D12033B5F00733364 /* SplashViewController.m */;
+		functionName = "-hideSplash";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 51;
+		modificationTime = 339704510.773134;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	A8FE70821203509F00733364 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A8FE6E1D1201F8E600733364 /* ferry-small.png */;
+	};
+	A8FE70C31203642C00733364 /* SplashViewController.m:35 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A8FE6F6D12033B5F00733364 /* SplashViewController.m */;
+		functionName = "-showSplash";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 35;
+		modificationTime = 339704510.773213;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+}

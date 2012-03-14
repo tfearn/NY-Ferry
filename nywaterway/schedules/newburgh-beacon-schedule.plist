@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<string>5:41am,5:50am</string>
+	<key>2</key>
+	<string>6:16am,6:24am</string>
+	<key>3</key>
+	<string>6:40am,6:49am</string>
+	<key>4</key>
+	<string>7:11am,7:20am</string>
+	<key>5</key>
+	<string>7:34am,7:43am</string>
+	<key>6</key>
+	<string>7:59am,8:08am</string>
+	<key>7</key>
+	<string>5:44pm,6:10pm</string>
+	<key>8</key>
+	<string>6:19pm,6:27pm</string>
+	<key>9</key>
+	<string>6:36pm,6:45pm</string>
+	<key>10</key>
+	<string>6:54pm,7:17pm</string>
+	<key>11</key>
+	<string>7:26pm,7:42pm</string>
+	<key>12</key>
+	<string>7:51pm,8:11pm</string>
+	<key>13</key>
+	<string>8:20pm,8:45pm</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item 0</key>
+	<string>Belford / Harbor Way</string>
+	<key>item 1</key>
+	<string>Edgewater</string>
+	<key>item 2</key>
+	<string>Hoboken 14th Street</string>
+	<key>item 4</key>
+	<string>Newport</string>
+	<key>item 5</key>
+	<string>Paulus Hook</string>
+	<key>item 6</key>
+	<string>Weehawken / Lincoln Harbor</string>
+	<key>item 7</key>
+	<string>Weehawken / Port Imperial</string>
+</dict>
+</plist>

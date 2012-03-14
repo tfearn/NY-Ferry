@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item 0</key>
+	<string>Beacon</string>
+	<key>item 1</key>
+	<string>Belford / Harbor Way</string>
+	<key>item 2</key>
+	<string>Edgewater</string>
+	<key>item 3</key>
+	<string>Haverstraw</string>
+	<key>item 4</key>
+	<string>Hoboken / NJ Transit Terminal</string>
+	<key>item 5</key>
+	<string>Hoboken 14th Street</string>
+	<key>item 6</key>
+	<string>Liberty Harbor</string>
+	<key>item 7</key>
+	<string>Midtown / 39th Street</string>
+	<key>item 8</key>
+	<string>Newburgh</string>
+	<key>item 9</key>
+	<string>Newport</string>
+	<key>item 10</key>
+	<string>Ossining</string>
+	<key>item 11</key>
+	<string>Paulus Hook</string>
+	<key>item 12</key>
+	<string>Pier 11 / Wall Street</string>
+	<key>item 13</key>
+	<string>Port Liberte</string>
+	<key>item 14</key>
+	<string>Weehawken / Lincoln Harbor</string>
+	<key>item 15</key>
+	<string>Weehawken / Port Imperial</string>
+	<key>item 16</key>
+	<string>World Financial Center</string>
+</dict>
+</plist>

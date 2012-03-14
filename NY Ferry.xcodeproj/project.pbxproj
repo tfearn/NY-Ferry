@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* NY_FerryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* NY_FerryAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		A81E4021150E6A76007B7765 /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A81E4020150E6A76007B7765 /* MyLocation.m */; };
+		A83198B51209B63D006A9446 /* beacon-newburgh-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198771209B63D006A9446 /* beacon-newburgh-schedule.plist */; };
+		A83198B61209B63D006A9446 /* belford-midtown-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198781209B63D006A9446 /* belford-midtown-schedule.plist */; };
+		A83198B71209B63D006A9446 /* belford-paulus-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198791209B63D006A9446 /* belford-paulus-schedule.plist */; };
+		A83198B81209B63D006A9446 /* belford-pier11-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831987A1209B63D006A9446 /* belford-pier11-schedule.plist */; };
+		A83198B91209B63D006A9446 /* belford-wfc-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831987B1209B63D006A9446 /* belford-wfc-schedule.plist */; };
+		A83198BA1209B63D006A9446 /* blank-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831987C1209B63D006A9446 /* blank-schedule.plist */; };
+		A83198BB1209B63D006A9446 /* edgewater-midtown-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831987D1209B63D006A9446 /* edgewater-midtown-schedule.plist */; };
+		A83198BC1209B63D006A9446 /* haverstraw-ossining-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831987E1209B63D006A9446 /* haverstraw-ossining-schedule.plist */; };
+		A83198BD1209B63D006A9446 /* hoboken14-midtown-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831987F1209B63D006A9446 /* hoboken14-midtown-schedule.plist */; };
+		A83198BE1209B63D006A9446 /* hoboken14-wfc-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198801209B63D006A9446 /* hoboken14-wfc-schedule.plist */; };
+		A83198BF1209B63D006A9446 /* hobokennjtransit-pier11-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198811209B63D006A9446 /* hobokennjtransit-pier11-schedule.plist */; };
+		A83198C01209B63D006A9446 /* hobokennjtransit-wfc-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198821209B63D006A9446 /* hobokennjtransit-wfc-schedule.plist */; };
+		A83198C11209B63D006A9446 /* libertyharbor-pier11-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198831209B63D006A9446 /* libertyharbor-pier11-schedule.plist */; };
+		A83198C21209B63D006A9446 /* lincolnharbor-midtown-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198841209B63D006A9446 /* lincolnharbor-midtown-schedule.plist */; };
+		A83198C31209B63D006A9446 /* midtown-belford-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198851209B63D006A9446 /* midtown-belford-schedule.plist */; };
+		A83198C41209B63D006A9446 /* midtown-edgewater-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198861209B63D006A9446 /* midtown-edgewater-schedule.plist */; };
+		A83198C51209B63D006A9446 /* midtown-hoboken14-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198871209B63D006A9446 /* midtown-hoboken14-schedule.plist */; };
+		A83198C61209B63D006A9446 /* midtown-lincolnharbor-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198881209B63D006A9446 /* midtown-lincolnharbor-schedule.plist */; };
+		A83198C71209B63D006A9446 /* midtown-newport-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198891209B63D006A9446 /* midtown-newport-schedule.plist */; };
+		A83198C81209B63D006A9446 /* midtown-paulus-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831988A1209B63D006A9446 /* midtown-paulus-schedule.plist */; };
+		A83198C91209B63D006A9446 /* midtown-portimperial-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831988B1209B63D006A9446 /* midtown-portimperial-schedule.plist */; };
+		A83198CA1209B63D006A9446 /* newburgh-beacon-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831988C1209B63D006A9446 /* newburgh-beacon-schedule.plist */; };
+		A83198CB1209B63D006A9446 /* newport-midtown-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831988D1209B63D006A9446 /* newport-midtown-schedule.plist */; };
+		A83198CC1209B63D006A9446 /* ossining-haverstraw-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831988E1209B63D006A9446 /* ossining-haverstraw-schedule.plist */; };
+		A83198CD1209B63D006A9446 /* paulus-belford-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831988F1209B63D006A9446 /* paulus-belford-schedule.plist */; };
+		A83198CE1209B63D006A9446 /* paulus-midtown-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198901209B63D006A9446 /* paulus-midtown-schedule.plist */; };
+		A83198CF1209B63D006A9446 /* paulus-pier11-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198911209B63D006A9446 /* paulus-pier11-schedule.plist */; };
+		A83198D01209B63D006A9446 /* paulus-wfc-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198921209B63D006A9446 /* paulus-wfc-schedule.plist */; };
+		A83198D11209B63D006A9446 /* pier11-belford-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198931209B63D006A9446 /* pier11-belford-schedule.plist */; };
+		A83198D21209B63D006A9446 /* pier11-hobokennjtransit-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198941209B63D006A9446 /* pier11-hobokennjtransit-schedule.plist */; };
+		A83198D31209B63D006A9446 /* pier11-libertyharbor-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198951209B63D006A9446 /* pier11-libertyharbor-schedule.plist */; };
+		A83198D41209B63D006A9446 /* pier11-paulus-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198961209B63D006A9446 /* pier11-paulus-schedule.plist */; };
+		A83198D51209B63D006A9446 /* pier11-portimperial-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198971209B63D006A9446 /* pier11-portimperial-schedule.plist */; };
+		A83198D61209B63D006A9446 /* pier11-portliberte-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198981209B63D006A9446 /* pier11-portliberte-schedule.plist */; };
+		A83198D71209B63D006A9446 /* portimperial-midtown-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198991209B63D006A9446 /* portimperial-midtown-schedule.plist */; };
+		A83198D81209B63D006A9446 /* portimperial-pier11-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831989A1209B63D006A9446 /* portimperial-pier11-schedule.plist */; };
+		A83198D91209B63D006A9446 /* portimperial-wfc-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831989B1209B63D006A9446 /* portimperial-wfc-schedule.plist */; };
+		A83198DA1209B63D006A9446 /* portliberte-pier11-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831989C1209B63D006A9446 /* portliberte-pier11-schedule.plist */; };
+		A83198DB1209B63D006A9446 /* wfc-belford-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831989D1209B63D006A9446 /* wfc-belford-schedule.plist */; };
+		A83198DC1209B63D006A9446 /* wfc-hoboken14-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831989E1209B63D006A9446 /* wfc-hoboken14-schedule.plist */; };
+		A83198DD1209B63D006A9446 /* wfc-hobokennjtransit-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A831989F1209B63D006A9446 /* wfc-hobokennjtransit-schedule.plist */; };
+		A83198DE1209B63D006A9446 /* wfc-paulus-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198A01209B63D006A9446 /* wfc-paulus-schedule.plist */; };
+		A83198DF1209B63D006A9446 /* wfc-portimperial-schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198A11209B63D006A9446 /* wfc-portimperial-schedule.plist */; };
+		A83198E01209B63D006A9446 /* beacon-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198A31209B63D006A9446 /* beacon-terminal.plist */; };
+		A83198E11209B63D006A9446 /* belford-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198A41209B63D006A9446 /* belford-terminal.plist */; };
+		A83198E21209B63D006A9446 /* edgewater-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198A51209B63D006A9446 /* edgewater-terminal.plist */; };
+		A83198E31209B63D006A9446 /* haverstraw-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198A61209B63D006A9446 /* haverstraw-terminal.plist */; };
+		A83198E41209B63D006A9446 /* hoboken-14th-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198A71209B63D006A9446 /* hoboken-14th-terminal.plist */; };
+		A83198E51209B63D006A9446 /* hoboken-njtransit-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198A81209B63D006A9446 /* hoboken-njtransit-terminal.plist */; };
+		A83198E61209B63D006A9446 /* liberty-harbor-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198A91209B63D006A9446 /* liberty-harbor-terminal.plist */; };
+		A83198E71209B63D006A9446 /* midtown-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198AA1209B63D006A9446 /* midtown-terminal.plist */; };
+		A83198E81209B63D006A9446 /* newburgh-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198AB1209B63D006A9446 /* newburgh-terminal.plist */; };
+		A83198E91209B63D006A9446 /* newport-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198AC1209B63D006A9446 /* newport-terminal.plist */; };
+		A83198EA1209B63D006A9446 /* ossining-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198AD1209B63D006A9446 /* ossining-terminal.plist */; };
+		A83198EB1209B63D006A9446 /* paulus-hook-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198AE1209B63D006A9446 /* paulus-hook-terminal.plist */; };
+		A83198EC1209B63D006A9446 /* pier-11-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198AF1209B63D006A9446 /* pier-11-terminal.plist */; };
+		A83198ED1209B63D006A9446 /* port-liberte-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198B01209B63D006A9446 /* port-liberte-terminal.plist */; };
+		A83198EE1209B63D006A9446 /* terminals.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198B11209B63D006A9446 /* terminals.plist */; };
+		A83198EF1209B63D006A9446 /* weehawken-lincoln-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198B21209B63D006A9446 /* weehawken-lincoln-terminal.plist */; };
+		A83198F01209B63D006A9446 /* weehawken-port-imperial-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198B31209B63D006A9446 /* weehawken-port-imperial-terminal.plist */; };
+		A83198F11209B63D006A9446 /* wfc-terminal.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83198B41209B63D006A9446 /* wfc-terminal.plist */; };
+		A8508E30150E44970006C028 /* switch-button.png in Resources */ = {isa = PBXBuildFile; fileRef = A8508E2F150E44940006C028 /* switch-button.png */; };
+		A8508E36150E4AE30006C028 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8508E35150E4AE30006C028 /* LocationViewController.m */; };
+		A8508E38150E4B110006C028 /* LocationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8508E37150E4B0D0006C028 /* LocationView.xib */; };
+		A8508E3A150E4C400006C028 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8508E39150E4C3E0006C028 /* MapKit.framework */; };
+		A87EAA3D11F61EB1006C72AA /* ScheduleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A87EAA3C11F61EB1006C72AA /* ScheduleViewCell.xib */; };
+		A87EAA9411F651F2006C72AA /* ScheduleToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87EAA9311F651F2006C72AA /* ScheduleToViewController.m */; };
+		A87EAA9611F65221006C72AA /* ScheduleToView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A87EAA9511F65221006C72AA /* ScheduleToView.xib */; };
+		A87EAA9A11F652CB006C72AA /* ScheduleFromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87EAA9911F652CB006C72AA /* ScheduleFromViewController.m */; };
+		A87EAA9C11F652E0006C72AA /* ScheduleFromView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A87EAA9B11F652E0006C72AA /* ScheduleFromView.xib */; };
+		A8C1F56312085C4A00E25CB2 /* nyferry-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C1F56212085C4A00E25CB2 /* nyferry-icon.png */; };
+		A8C1F573120860F800E25CB2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C1F572120860F800E25CB2 /* Default.png */; };
+		A8FE6C951200B9B700733364 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FE6C941200B9B700733364 /* ScheduleViewController.m */; };
+		A8FE6C9A1200BA1000733364 /* ScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8FE6C991200BA1000733364 /* ScheduleView.xib */; };
+		A8FE6D361200CE6F00733364 /* ScheduleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FE6D351200CE6F00733364 /* ScheduleViewCell.m */; };
+		A8FE6E1E1201F8E600733364 /* ferry-small.png in Resources */ = {isa = PBXBuildFile; fileRef = A8FE6E1D1201F8E600733364 /* ferry-small.png */; };
+		A8FE6E40120202FB00733364 /* clock-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8FE6E3E120202FB00733364 /* clock-icon.png */; };
+		A8FE6E41120202FB00733364 /* map-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8FE6E3F120202FB00733364 /* map-icon.png */; };
+		A8FE6E491202038C00733364 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FE6E481202038C00733364 /* MapViewController.m */; };
+		A8FE6E4B120203B500733364 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8FE6E4A120203B500733364 /* MapView.xib */; };
+		A8FE6E6612020F5C00733364 /* nyferry-map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8FE6E6512020F5C00733364 /* nyferry-map.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* NY_FerryAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NY_FerryAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* NY_FerryAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NY_FerryAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* NY Ferry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NY Ferry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* NY_Ferry_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NY_Ferry_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* NY_Ferry-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NY_Ferry-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A81E401F150E6A76007B7765 /* MyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocation.h; sourceTree = "<group>"; };
+		A81E4020150E6A76007B7765 /* MyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocation.m; sourceTree = "<group>"; };
+		A83198771209B63D006A9446 /* beacon-newburgh-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "beacon-newburgh-schedule.plist"; sourceTree = "<group>"; };
+		A83198781209B63D006A9446 /* belford-midtown-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "belford-midtown-schedule.plist"; sourceTree = "<group>"; };
+		A83198791209B63D006A9446 /* belford-paulus-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "belford-paulus-schedule.plist"; sourceTree = "<group>"; };
+		A831987A1209B63D006A9446 /* belford-pier11-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "belford-pier11-schedule.plist"; sourceTree = "<group>"; };
+		A831987B1209B63D006A9446 /* belford-wfc-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "belford-wfc-schedule.plist"; sourceTree = "<group>"; };
+		A831987C1209B63D006A9446 /* blank-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "blank-schedule.plist"; sourceTree = "<group>"; };
+		A831987D1209B63D006A9446 /* edgewater-midtown-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "edgewater-midtown-schedule.plist"; sourceTree = "<group>"; };
+		A831987E1209B63D006A9446 /* haverstraw-ossining-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "haverstraw-ossining-schedule.plist"; sourceTree = "<group>"; };
+		A831987F1209B63D006A9446 /* hoboken14-midtown-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "hoboken14-midtown-schedule.plist"; sourceTree = "<group>"; };
+		A83198801209B63D006A9446 /* hoboken14-wfc-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "hoboken14-wfc-schedule.plist"; sourceTree = "<group>"; };
+		A83198811209B63D006A9446 /* hobokennjtransit-pier11-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "hobokennjtransit-pier11-schedule.plist"; sourceTree = "<group>"; };
+		A83198821209B63D006A9446 /* hobokennjtransit-wfc-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "hobokennjtransit-wfc-schedule.plist"; sourceTree = "<group>"; };
+		A83198831209B63D006A9446 /* libertyharbor-pier11-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "libertyharbor-pier11-schedule.plist"; sourceTree = "<group>"; };
+		A83198841209B63D006A9446 /* lincolnharbor-midtown-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "lincolnharbor-midtown-schedule.plist"; sourceTree = "<group>"; };
+		A83198851209B63D006A9446 /* midtown-belford-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "midtown-belford-schedule.plist"; sourceTree = "<group>"; };
+		A83198861209B63D006A9446 /* midtown-edgewater-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "midtown-edgewater-schedule.plist"; sourceTree = "<group>"; };
+		A83198871209B63D006A9446 /* midtown-hoboken14-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "midtown-hoboken14-schedule.plist"; sourceTree = "<group>"; };
+		A83198881209B63D006A9446 /* midtown-lincolnharbor-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "midtown-lincolnharbor-schedule.plist"; sourceTree = "<group>"; };
+		A83198891209B63D006A9446 /* midtown-newport-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "midtown-newport-schedule.plist"; sourceTree = "<group>"; };
+		A831988A1209B63D006A9446 /* midtown-paulus-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "midtown-paulus-schedule.plist"; sourceTree = "<group>"; };
+		A831988B1209B63D006A9446 /* midtown-portimperial-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "midtown-portimperial-schedule.plist"; sourceTree = "<group>"; };
+		A831988C1209B63D006A9446 /* newburgh-beacon-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "newburgh-beacon-schedule.plist"; sourceTree = "<group>"; };
+		A831988D1209B63D006A9446 /* newport-midtown-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "newport-midtown-schedule.plist"; sourceTree = "<group>"; };
+		A831988E1209B63D006A9446 /* ossining-haverstraw-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ossining-haverstraw-schedule.plist"; sourceTree = "<group>"; };
+		A831988F1209B63D006A9446 /* paulus-belford-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "paulus-belford-schedule.plist"; sourceTree = "<group>"; };
+		A83198901209B63D006A9446 /* paulus-midtown-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "paulus-midtown-schedule.plist"; sourceTree = "<group>"; };
+		A83198911209B63D006A9446 /* paulus-pier11-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "paulus-pier11-schedule.plist"; sourceTree = "<group>"; };
+		A83198921209B63D006A9446 /* paulus-wfc-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "paulus-wfc-schedule.plist"; sourceTree = "<group>"; };
+		A83198931209B63D006A9446 /* pier11-belford-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pier11-belford-schedule.plist"; sourceTree = "<group>"; };
+		A83198941209B63D006A9446 /* pier11-hobokennjtransit-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pier11-hobokennjtransit-schedule.plist"; sourceTree = "<group>"; };
+		A83198951209B63D006A9446 /* pier11-libertyharbor-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pier11-libertyharbor-schedule.plist"; sourceTree = "<group>"; };
+		A83198961209B63D006A9446 /* pier11-paulus-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pier11-paulus-schedule.plist"; sourceTree = "<group>"; };
+		A83198971209B63D006A9446 /* pier11-portimperial-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pier11-portimperial-schedule.plist"; sourceTree = "<group>"; };
+		A83198981209B63D006A9446 /* pier11-portliberte-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pier11-portliberte-schedule.plist"; sourceTree = "<group>"; };
+		A83198991209B63D006A9446 /* portimperial-midtown-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "portimperial-midtown-schedule.plist"; sourceTree = "<group>"; };
+		A831989A1209B63D006A9446 /* portimperial-pier11-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "portimperial-pier11-schedule.plist"; sourceTree = "<group>"; };
+		A831989B1209B63D006A9446 /* portimperial-wfc-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "portimperial-wfc-schedule.plist"; sourceTree = "<group>"; };
+		A831989C1209B63D006A9446 /* portliberte-pier11-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "portliberte-pier11-schedule.plist"; sourceTree = "<group>"; };
+		A831989D1209B63D006A9446 /* wfc-belford-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wfc-belford-schedule.plist"; sourceTree = "<group>"; };
+		A831989E1209B63D006A9446 /* wfc-hoboken14-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wfc-hoboken14-schedule.plist"; sourceTree = "<group>"; };
+		A831989F1209B63D006A9446 /* wfc-hobokennjtransit-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wfc-hobokennjtransit-schedule.plist"; sourceTree = "<group>"; };
+		A83198A01209B63D006A9446 /* wfc-paulus-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wfc-paulus-schedule.plist"; sourceTree = "<group>"; };
+		A83198A11209B63D006A9446 /* wfc-portimperial-schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wfc-portimperial-schedule.plist"; sourceTree = "<group>"; };
+		A83198A31209B63D006A9446 /* beacon-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "beacon-terminal.plist"; sourceTree = "<group>"; };
+		A83198A41209B63D006A9446 /* belford-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "belford-terminal.plist"; sourceTree = "<group>"; };
+		A83198A51209B63D006A9446 /* edgewater-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "edgewater-terminal.plist"; sourceTree = "<group>"; };
+		A83198A61209B63D006A9446 /* haverstraw-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "haverstraw-terminal.plist"; sourceTree = "<group>"; };
+		A83198A71209B63D006A9446 /* hoboken-14th-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "hoboken-14th-terminal.plist"; sourceTree = "<group>"; };
+		A83198A81209B63D006A9446 /* hoboken-njtransit-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "hoboken-njtransit-terminal.plist"; sourceTree = "<group>"; };
+		A83198A91209B63D006A9446 /* liberty-harbor-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "liberty-harbor-terminal.plist"; sourceTree = "<group>"; };
+		A83198AA1209B63D006A9446 /* midtown-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "midtown-terminal.plist"; sourceTree = "<group>"; };
+		A83198AB1209B63D006A9446 /* newburgh-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "newburgh-terminal.plist"; sourceTree = "<group>"; };
+		A83198AC1209B63D006A9446 /* newport-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "newport-terminal.plist"; sourceTree = "<group>"; };
+		A83198AD1209B63D006A9446 /* ossining-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ossining-terminal.plist"; sourceTree = "<group>"; };
+		A83198AE1209B63D006A9446 /* paulus-hook-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "paulus-hook-terminal.plist"; sourceTree = "<group>"; };
+		A83198AF1209B63D006A9446 /* pier-11-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pier-11-terminal.plist"; sourceTree = "<group>"; };
+		A83198B01209B63D006A9446 /* port-liberte-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "port-liberte-terminal.plist"; sourceTree = "<group>"; };
+		A83198B11209B63D006A9446 /* terminals.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = terminals.plist; sourceTree = "<group>"; };
+		A83198B21209B63D006A9446 /* weehawken-lincoln-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "weehawken-lincoln-terminal.plist"; sourceTree = "<group>"; };
+		A83198B31209B63D006A9446 /* weehawken-port-imperial-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "weehawken-port-imperial-terminal.plist"; sourceTree = "<group>"; };
+		A83198B41209B63D006A9446 /* wfc-terminal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wfc-terminal.plist"; sourceTree = "<group>"; };
+		A8508E2F150E44940006C028 /* switch-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch-button.png"; sourceTree = "<group>"; };
+		A8508E34150E4AE10006C028 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		A8508E35150E4AE30006C028 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		A8508E37150E4B0D0006C028 /* LocationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationView.xib; sourceTree = "<group>"; };
+		A8508E39150E4C3E0006C028 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		A87EAA3C11F61EB1006C72AA /* ScheduleViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleViewCell.xib; sourceTree = "<group>"; };
+		A87EAA9211F651F2006C72AA /* ScheduleToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleToViewController.h; sourceTree = "<group>"; };
+		A87EAA9311F651F2006C72AA /* ScheduleToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleToViewController.m; sourceTree = "<group>"; };
+		A87EAA9511F65221006C72AA /* ScheduleToView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleToView.xib; sourceTree = "<group>"; };
+		A87EAA9811F652CB006C72AA /* ScheduleFromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleFromViewController.h; sourceTree = "<group>"; };
+		A87EAA9911F652CB006C72AA /* ScheduleFromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleFromViewController.m; sourceTree = "<group>"; };
+		A87EAA9B11F652E0006C72AA /* ScheduleFromView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleFromView.xib; sourceTree = "<group>"; };
+		A8A09AAA11F7814C00B8893B /* commondefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondefs.h; sourceTree = "<group>"; };
+		A8C1F56212085C4A00E25CB2 /* nyferry-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nyferry-icon.png"; sourceTree = "<group>"; };
+		A8C1F572120860F800E25CB2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A8FE6C931200B9B700733364 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		A8FE6C941200B9B700733364 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		A8FE6C991200BA1000733364 /* ScheduleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleView.xib; sourceTree = "<group>"; };
+		A8FE6D341200CE6F00733364 /* ScheduleViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewCell.h; sourceTree = "<group>"; };
+		A8FE6D351200CE6F00733364 /* ScheduleViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewCell.m; sourceTree = "<group>"; };
+		A8FE6E1D1201F8E600733364 /* ferry-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ferry-small.png"; sourceTree = "<group>"; };
+		A8FE6E3E120202FB00733364 /* clock-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-icon.png"; sourceTree = "<group>"; };
+		A8FE6E3F120202FB00733364 /* map-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-icon.png"; sourceTree = "<group>"; };
+		A8FE6E471202038C00733364 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		A8FE6E481202038C00733364 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		A8FE6E4A120203B500733364 /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		A8FE6E6512020F5C00733364 /* nyferry-map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nyferry-map.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8508E3A150E4C400006C028 /* MapKit.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* NY_FerryAppDelegate.h */,
+				1D3623250D0F684500981E51 /* NY_FerryAppDelegate.m */,
+				A87EAA9811F652CB006C72AA /* ScheduleFromViewController.h */,
+				A87EAA9911F652CB006C72AA /* ScheduleFromViewController.m */,
+				A87EAA9211F651F2006C72AA /* ScheduleToViewController.h */,
+				A87EAA9311F651F2006C72AA /* ScheduleToViewController.m */,
+				A8FE6C931200B9B700733364 /* ScheduleViewController.h */,
+				A8FE6C941200B9B700733364 /* ScheduleViewController.m */,
+				A8FE6D341200CE6F00733364 /* ScheduleViewCell.h */,
+				A8FE6D351200CE6F00733364 /* ScheduleViewCell.m */,
+				A8FE6E471202038C00733364 /* MapViewController.h */,
+				A8FE6E481202038C00733364 /* MapViewController.m */,
+				A8508E34150E4AE10006C028 /* LocationViewController.h */,
+				A8508E35150E4AE30006C028 /* LocationViewController.m */,
+				A8A09AAA11F7814C00B8893B /* commondefs.h */,
+				A81E401F150E6A76007B7765 /* MyLocation.h */,
+				A81E4020150E6A76007B7765 /* MyLocation.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* NY Ferry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* NY Ferry */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "NY Ferry";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* NY_Ferry_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A83198751209B63D006A9446 /* nywaterway */,
+				A8508E2F150E44940006C028 /* switch-button.png */,
+				A8C1F572120860F800E25CB2 /* Default.png */,
+				A8C1F56212085C4A00E25CB2 /* nyferry-icon.png */,
+				A8FE6E6512020F5C00733364 /* nyferry-map.jpg */,
+				A8FE6E3E120202FB00733364 /* clock-icon.png */,
+				A8FE6E3F120202FB00733364 /* map-icon.png */,
+				A8FE6E1D1201F8E600733364 /* ferry-small.png */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* NY_Ferry-Info.plist */,
+				A87EAA9B11F652E0006C72AA /* ScheduleFromView.xib */,
+				A87EAA9511F65221006C72AA /* ScheduleToView.xib */,
+				A8FE6C991200BA1000733364 /* ScheduleView.xib */,
+				A87EAA3C11F61EB1006C72AA /* ScheduleViewCell.xib */,
+				A8508E37150E4B0D0006C028 /* LocationView.xib */,
+				A8FE6E4A120203B500733364 /* MapView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8508E39150E4C3E0006C028 /* MapKit.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A83198751209B63D006A9446 /* nywaterway */ = {
+			isa = PBXGroup;
+			children = (
+				A83198761209B63D006A9446 /* schedules */,
+				A83198A21209B63D006A9446 /* terminals */,
+			);
+			path = nywaterway;
+			sourceTree = "<group>";
+		};
+		A83198761209B63D006A9446 /* schedules */ = {
+			isa = PBXGroup;
+			children = (
+				A83198771209B63D006A9446 /* beacon-newburgh-schedule.plist */,
+				A83198781209B63D006A9446 /* belford-midtown-schedule.plist */,
+				A83198791209B63D006A9446 /* belford-paulus-schedule.plist */,
+				A831987A1209B63D006A9446 /* belford-pier11-schedule.plist */,
+				A831987B1209B63D006A9446 /* belford-wfc-schedule.plist */,
+				A831987C1209B63D006A9446 /* blank-schedule.plist */,
+				A831987D1209B63D006A9446 /* edgewater-midtown-schedule.plist */,
+				A831987E1209B63D006A9446 /* haverstraw-ossining-schedule.plist */,
+				A831987F1209B63D006A9446 /* hoboken14-midtown-schedule.plist */,
+				A83198801209B63D006A9446 /* hoboken14-wfc-schedule.plist */,
+				A83198811209B63D006A9446 /* hobokennjtransit-pier11-schedule.plist */,
+				A83198821209B63D006A9446 /* hobokennjtransit-wfc-schedule.plist */,
+				A83198831209B63D006A9446 /* libertyharbor-pier11-schedule.plist */,
+				A83198841209B63D006A9446 /* lincolnharbor-midtown-schedule.plist */,
+				A83198851209B63D006A9446 /* midtown-belford-schedule.plist */,
+				A83198861209B63D006A9446 /* midtown-edgewater-schedule.plist */,
+				A83198871209B63D006A9446 /* midtown-hoboken14-schedule.plist */,
+				A83198881209B63D006A9446 /* midtown-lincolnharbor-schedule.plist */,
+				A83198891209B63D006A9446 /* midtown-newport-schedule.plist */,
+				A831988A1209B63D006A9446 /* midtown-paulus-schedule.plist */,
+				A831988B1209B63D006A9446 /* midtown-portimperial-schedule.plist */,
+				A831988C1209B63D006A9446 /* newburgh-beacon-schedule.plist */,
+				A831988D1209B63D006A9446 /* newport-midtown-schedule.plist */,
+				A831988E1209B63D006A9446 /* ossining-haverstraw-schedule.plist */,
+				A831988F1209B63D006A9446 /* paulus-belford-schedule.plist */,
+				A83198901209B63D006A9446 /* paulus-midtown-schedule.plist */,
+				A83198911209B63D006A9446 /* paulus-pier11-schedule.plist */,
+				A83198921209B63D006A9446 /* paulus-wfc-schedule.plist */,
+				A83198931209B63D006A9446 /* pier11-belford-schedule.plist */,
+				A83198941209B63D006A9446 /* pier11-hobokennjtransit-schedule.plist */,
+				A83198951209B63D006A9446 /* pier11-libertyharbor-schedule.plist */,
+				A83198961209B63D006A9446 /* pier11-paulus-schedule.plist */,
+				A83198971209B63D006A9446 /* pier11-portimperial-schedule.plist */,
+				A83198981209B63D006A9446 /* pier11-portliberte-schedule.plist */,
+				A83198991209B63D006A9446 /* portimperial-midtown-schedule.plist */,
+				A831989A1209B63D006A9446 /* portimperial-pier11-schedule.plist */,
+				A831989B1209B63D006A9446 /* portimperial-wfc-schedule.plist */,
+				A831989C1209B63D006A9446 /* portliberte-pier11-schedule.plist */,
+				A831989D1209B63D006A9446 /* wfc-belford-schedule.plist */,
+				A831989E1209B63D006A9446 /* wfc-hoboken14-schedule.plist */,
+				A831989F1209B63D006A9446 /* wfc-hobokennjtransit-schedule.plist */,
+				A83198A01209B63D006A9446 /* wfc-paulus-schedule.plist */,
+				A83198A11209B63D006A9446 /* wfc-portimperial-schedule.plist */,
+			);
+			path = schedules;
+			sourceTree = "<group>";
+		};
+		A83198A21209B63D006A9446 /* terminals */ = {
+			isa = PBXGroup;
+			children = (
+				A83198A31209B63D006A9446 /* beacon-terminal.plist */,
+				A83198A41209B63D006A9446 /* belford-terminal.plist */,
+				A83198A51209B63D006A9446 /* edgewater-terminal.plist */,
+				A83198A61209B63D006A9446 /* haverstraw-terminal.plist */,
+				A83198A71209B63D006A9446 /* hoboken-14th-terminal.plist */,
+				A83198A81209B63D006A9446 /* hoboken-njtransit-terminal.plist */,
+				A83198A91209B63D006A9446 /* liberty-harbor-terminal.plist */,
+				A83198AA1209B63D006A9446 /* midtown-terminal.plist */,
+				A83198AB1209B63D006A9446 /* newburgh-terminal.plist */,
+				A83198AC1209B63D006A9446 /* newport-terminal.plist */,
+				A83198AD1209B63D006A9446 /* ossining-terminal.plist */,
+				A83198AE1209B63D006A9446 /* paulus-hook-terminal.plist */,
+				A83198AF1209B63D006A9446 /* pier-11-terminal.plist */,
+				A83198B01209B63D006A9446 /* port-liberte-terminal.plist */,
+				A83198B11209B63D006A9446 /* terminals.plist */,
+				A83198B21209B63D006A9446 /* weehawken-lincoln-terminal.plist */,
+				A83198B31209B63D006A9446 /* weehawken-port-imperial-terminal.plist */,
+				A83198B41209B63D006A9446 /* wfc-terminal.plist */,
+			);
+			path = terminals;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* NY Ferry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NY Ferry" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NY Ferry";
+			productName = "NY Ferry";
+			productReference = 1D6058910D05DD3D006BFB54 /* NY Ferry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "iDATA Corporation";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NY Ferry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* NY Ferry */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* NY Ferry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				A87EAA3D11F61EB1006C72AA /* ScheduleViewCell.xib in Resources */,
+				A87EAA9611F65221006C72AA /* ScheduleToView.xib in Resources */,
+				A87EAA9C11F652E0006C72AA /* ScheduleFromView.xib in Resources */,
+				A8FE6C9A1200BA1000733364 /* ScheduleView.xib in Resources */,
+				A8FE6E1E1201F8E600733364 /* ferry-small.png in Resources */,
+				A8FE6E40120202FB00733364 /* clock-icon.png in Resources */,
+				A8FE6E41120202FB00733364 /* map-icon.png in Resources */,
+				A8FE6E4B120203B500733364 /* MapView.xib in Resources */,
+				A8FE6E6612020F5C00733364 /* nyferry-map.jpg in Resources */,
+				A8C1F56312085C4A00E25CB2 /* nyferry-icon.png in Resources */,
+				A8C1F573120860F800E25CB2 /* Default.png in Resources */,
+				A83198B51209B63D006A9446 /* beacon-newburgh-schedule.plist in Resources */,
+				A83198B61209B63D006A9446 /* belford-midtown-schedule.plist in Resources */,
+				A83198B71209B63D006A9446 /* belford-paulus-schedule.plist in Resources */,
+				A83198B81209B63D006A9446 /* belford-pier11-schedule.plist in Resources */,
+				A83198B91209B63D006A9446 /* belford-wfc-schedule.plist in Resources */,
+				A83198BA1209B63D006A9446 /* blank-schedule.plist in Resources */,
+				A83198BB1209B63D006A9446 /* edgewater-midtown-schedule.plist in Resources */,
+				A83198BC1209B63D006A9446 /* haverstraw-ossining-schedule.plist in Resources */,
+				A83198BD1209B63D006A9446 /* hoboken14-midtown-schedule.plist in Resources */,
+				A83198BE1209B63D006A9446 /* hoboken14-wfc-schedule.plist in Resources */,
+				A83198BF1209B63D006A9446 /* hobokennjtransit-pier11-schedule.plist in Resources */,
+				A83198C01209B63D006A9446 /* hobokennjtransit-wfc-schedule.plist in Resources */,
+				A83198C11209B63D006A9446 /* libertyharbor-pier11-schedule.plist in Resources */,
+				A83198C21209B63D006A9446 /* lincolnharbor-midtown-schedule.plist in Resources */,
+				A83198C31209B63D006A9446 /* midtown-belford-schedule.plist in Resources */,
+				A83198C41209B63D006A9446 /* midtown-edgewater-schedule.plist in Resources */,
+				A83198C51209B63D006A9446 /* midtown-hoboken14-schedule.plist in Resources */,
+				A83198C61209B63D006A9446 /* midtown-lincolnharbor-schedule.plist in Resources */,
+				A83198C71209B63D006A9446 /* midtown-newport-schedule.plist in Resources */,
+				A83198C81209B63D006A9446 /* midtown-paulus-schedule.plist in Resources */,
+				A83198C91209B63D006A9446 /* midtown-portimperial-schedule.plist in Resources */,
+				A83198CA1209B63D006A9446 /* newburgh-beacon-schedule.plist in Resources */,
+				A83198CB1209B63D006A9446 /* newport-midtown-schedule.plist in Resources */,
+				A83198CC1209B63D006A9446 /* ossining-haverstraw-schedule.plist in Resources */,
+				A83198CD1209B63D006A9446 /* paulus-belford-schedule.plist in Resources */,
+				A83198CE1209B63D006A9446 /* paulus-midtown-schedule.plist in Resources */,
+				A83198CF1209B63D006A9446 /* paulus-pier11-schedule.plist in Resources */,
+				A83198D01209B63D006A9446 /* paulus-wfc-schedule.plist in Resources */,
+				A83198D11209B63D006A9446 /* pier11-belford-schedule.plist in Resources */,
+				A83198D21209B63D006A9446 /* pier11-hobokennjtransit-schedule.plist in Resources */,
+				A83198D31209B63D006A9446 /* pier11-libertyharbor-schedule.plist in Resources */,
+				A83198D41209B63D006A9446 /* pier11-paulus-schedule.plist in Resources */,
+				A83198D51209B63D006A9446 /* pier11-portimperial-schedule.plist in Resources */,
+				A83198D61209B63D006A9446 /* pier11-portliberte-schedule.plist in Resources */,
+				A83198D71209B63D006A9446 /* portimperial-midtown-schedule.plist in Resources */,
+				A83198D81209B63D006A9446 /* portimperial-pier11-schedule.plist in Resources */,
+				A83198D91209B63D006A9446 /* portimperial-wfc-schedule.plist in Resources */,
+				A83198DA1209B63D006A9446 /* portliberte-pier11-schedule.plist in Resources */,
+				A83198DB1209B63D006A9446 /* wfc-belford-schedule.plist in Resources */,
+				A83198DC1209B63D006A9446 /* wfc-hoboken14-schedule.plist in Resources */,
+				A83198DD1209B63D006A9446 /* wfc-hobokennjtransit-schedule.plist in Resources */,
+				A83198DE1209B63D006A9446 /* wfc-paulus-schedule.plist in Resources */,
+				A83198DF1209B63D006A9446 /* wfc-portimperial-schedule.plist in Resources */,
+				A83198E01209B63D006A9446 /* beacon-terminal.plist in Resources */,
+				A83198E11209B63D006A9446 /* belford-terminal.plist in Resources */,
+				A83198E21209B63D006A9446 /* edgewater-terminal.plist in Resources */,
+				A83198E31209B63D006A9446 /* haverstraw-terminal.plist in Resources */,
+				A83198E41209B63D006A9446 /* hoboken-14th-terminal.plist in Resources */,
+				A83198E51209B63D006A9446 /* hoboken-njtransit-terminal.plist in Resources */,
+				A83198E61209B63D006A9446 /* liberty-harbor-terminal.plist in Resources */,
+				A83198E71209B63D006A9446 /* midtown-terminal.plist in Resources */,
+				A83198E81209B63D006A9446 /* newburgh-terminal.plist in Resources */,
+				A83198E91209B63D006A9446 /* newport-terminal.plist in Resources */,
+				A83198EA1209B63D006A9446 /* ossining-terminal.plist in Resources */,
+				A83198EB1209B63D006A9446 /* paulus-hook-terminal.plist in Resources */,
+				A83198EC1209B63D006A9446 /* pier-11-terminal.plist in Resources */,
+				A83198ED1209B63D006A9446 /* port-liberte-terminal.plist in Resources */,
+				A83198EE1209B63D006A9446 /* terminals.plist in Resources */,
+				A83198EF1209B63D006A9446 /* weehawken-lincoln-terminal.plist in Resources */,
+				A83198F01209B63D006A9446 /* weehawken-port-imperial-terminal.plist in Resources */,
+				A83198F11209B63D006A9446 /* wfc-terminal.plist in Resources */,
+				A8508E30150E44970006C028 /* switch-button.png in Resources */,
+				A8508E38150E4B110006C028 /* LocationView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* NY_FerryAppDelegate.m in Sources */,
+				A87EAA9411F651F2006C72AA /* ScheduleToViewController.m in Sources */,
+				A87EAA9A11F652CB006C72AA /* ScheduleFromViewController.m in Sources */,
+				A8FE6C951200B9B700733364 /* ScheduleViewController.m in Sources */,
+				A8FE6D361200CE6F00733364 /* ScheduleViewCell.m in Sources */,
+				A8FE6E491202038C00733364 /* MapViewController.m in Sources */,
+				A8508E36150E4AE30006C028 /* LocationViewController.m in Sources */,
+				A81E4021150E6A76007B7765 /* MyLocation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NY_Ferry_Prefix.pch;
+				INFOPLIST_FILE = "NY_Ferry-Info.plist";
+				PRODUCT_NAME = "NY Ferry";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Fearn (3TVVZ6J6JA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Fearn (3TVVZ6J6JA)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NY_Ferry_Prefix.pch;
+				INFOPLIST_FILE = "NY_Ferry-Info.plist";
+				PRODUCT_NAME = "NY Ferry";
+				PROVISIONING_PROFILE = "7F0693FB-2EB4-42B0-8577-95B081344170";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F0693FB-2EB4-42B0-8577-95B081344170";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphonesimulator3.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NY Ferry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NY Ferry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

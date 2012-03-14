@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item 0</key>
+	<string>Belford / Harbor Way</string>
+	<key>item 1</key>
+	<string>Midtown / 39th Street</string>
+	<key>item 2</key>
+	<string>Pier 11 / Wall Street</string>
+	<key>item 3</key>
+	<string>World Financial Center</string>
+</dict>
+</plist>
