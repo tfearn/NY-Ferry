@@ -84,8 +84,10 @@
 		A87EAA9611F65221006C72AA /* ScheduleToView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A87EAA9511F65221006C72AA /* ScheduleToView.xib */; };
 		A87EAA9A11F652CB006C72AA /* ScheduleFromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87EAA9911F652CB006C72AA /* ScheduleFromViewController.m */; };
 		A87EAA9C11F652E0006C72AA /* ScheduleFromView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A87EAA9B11F652E0006C72AA /* ScheduleFromView.xib */; };
-		A8C1F56312085C4A00E25CB2 /* nyferry-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C1F56212085C4A00E25CB2 /* nyferry-icon.png */; };
+		A8C1F56312085C4A00E25CB2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C1F56212085C4A00E25CB2 /* Icon.png */; };
 		A8C1F573120860F800E25CB2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C1F572120860F800E25CB2 /* Default.png */; };
+		A8EAA28B1510E87300FCB3B6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EAA28A1510E87300FCB3B6 /* Icon@2x.png */; };
+		A8EAA28D1510EED300FCB3B6 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EAA28C1510EED300FCB3B6 /* Icon-72.png */; };
 		A8FE6C951200B9B700733364 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FE6C941200B9B700733364 /* ScheduleViewController.m */; };
 		A8FE6C9A1200BA1000733364 /* ScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8FE6C991200BA1000733364 /* ScheduleView.xib */; };
 		A8FE6D361200CE6F00733364 /* ScheduleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FE6D351200CE6F00733364 /* ScheduleViewCell.m */; };
@@ -184,8 +186,10 @@
 		A87EAA9911F652CB006C72AA /* ScheduleFromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleFromViewController.m; sourceTree = "<group>"; };
 		A87EAA9B11F652E0006C72AA /* ScheduleFromView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleFromView.xib; sourceTree = "<group>"; };
 		A8A09AAA11F7814C00B8893B /* commondefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondefs.h; sourceTree = "<group>"; };
-		A8C1F56212085C4A00E25CB2 /* nyferry-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nyferry-icon.png"; sourceTree = "<group>"; };
+		A8C1F56212085C4A00E25CB2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		A8C1F572120860F800E25CB2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A8EAA28A1510E87300FCB3B6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A8EAA28C1510EED300FCB3B6 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		A8FE6C931200B9B700733364 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
 		A8FE6C941200B9B700733364 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
 		A8FE6C991200BA1000733364 /* ScheduleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleView.xib; sourceTree = "<group>"; };
@@ -271,10 +275,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A8EAA28C1510EED300FCB3B6 /* Icon-72.png */,
 				A83198751209B63D006A9446 /* nywaterway */,
 				A8508E2F150E44940006C028 /* switch-button.png */,
 				A8C1F572120860F800E25CB2 /* Default.png */,
-				A8C1F56212085C4A00E25CB2 /* nyferry-icon.png */,
+				A8C1F56212085C4A00E25CB2 /* Icon.png */,
+				A8EAA28A1510E87300FCB3B6 /* Icon@2x.png */,
 				A8FE6E6512020F5C00733364 /* nyferry-map.jpg */,
 				A8FE6E3E120202FB00733364 /* clock-icon.png */,
 				A8FE6E3F120202FB00733364 /* map-icon.png */,
@@ -449,7 +455,7 @@
 				A8FE6E41120202FB00733364 /* map-icon.png in Resources */,
 				A8FE6E4B120203B500733364 /* MapView.xib in Resources */,
 				A8FE6E6612020F5C00733364 /* nyferry-map.jpg in Resources */,
-				A8C1F56312085C4A00E25CB2 /* nyferry-icon.png in Resources */,
+				A8C1F56312085C4A00E25CB2 /* Icon.png in Resources */,
 				A8C1F573120860F800E25CB2 /* Default.png in Resources */,
 				A83198B51209B63D006A9446 /* beacon-newburgh-schedule.plist in Resources */,
 				A83198B61209B63D006A9446 /* belford-midtown-schedule.plist in Resources */,
@@ -514,6 +520,8 @@
 				A83198F11209B63D006A9446 /* wfc-terminal.plist in Resources */,
 				A8508E30150E44970006C028 /* switch-button.png in Resources */,
 				A8508E38150E4B110006C028 /* LocationView.xib in Resources */,
+				A8EAA28B1510E87300FCB3B6 /* Icon@2x.png in Resources */,
+				A8EAA28D1510EED300FCB3B6 /* Icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,7 +551,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7,
+					armv6,
+				);
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -552,7 +563,7 @@
 				INFOPLIST_FILE = "NY_Ferry-Info.plist";
 				PRODUCT_NAME = "NY Ferry";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -560,7 +571,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7,
+					armv6,
+				);
 				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Fearn (3TVVZ6J6JA)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Todd Fearn (3TVVZ6J6JA)";
 				COPY_PHASE_STRIP = YES;
@@ -571,10 +585,49 @@
 				PROVISIONING_PROFILE = "7F0693FB-2EB4-42B0-8577-95B081344170";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7F0693FB-2EB4-42B0-8577-95B081344170";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		A8EAA2851510E4D500FCB3B6 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		A8EAA2861510E4D500FCB3B6 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution: iDATA Corporation";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: iDATA Corporation";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NY_Ferry_Prefix.pch;
+				INFOPLIST_FILE = "NY_Ferry-Info.plist";
+				PRODUCT_NAME = "NY Ferry";
+				PROVISIONING_PROFILE = "66AD8F1A-26DD-487A-B005-9EEF6EAFC33A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "66AD8F1A-26DD-487A-B005-9EEF6EAFC33A";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -612,6 +665,7 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+				A8EAA2861510E4D500FCB3B6 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -621,6 +675,7 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+				A8EAA2851510E4D500FCB3B6 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
